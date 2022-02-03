@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.5in" height="11in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8500 11000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="-6727" y="118" width="37958" height="20208"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image id="_1.png" transform="matrix(1 0 0 1 -10977.4 14826.3)" x="4250" y="-14708" width="37958" height="20208" xlink:href="vhvv_Images\vhvv_ImgID1.png"/>
+  </g>
+  <path class="fil0" d="M-6727 14587c6415,-1608 12829,-1802 19243,0 6342,1748 12594,1872 18715,0l0 5739 -37958 0 0 -5739z"/>
+ </g>
+</svg>
