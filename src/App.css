@@ -243,7 +243,7 @@ header{
 .sec3{
     width: 100%;
     height: 150vh;
-    background-color:    #EBFCFF;
+    background-color:  #d8f6fc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,7 +253,7 @@ header{
 .isec3{
     width: 75%;
     height: 120vh;
-    background-color: #EBFCFF;
+    background-color: #d8f6fc;
     /* background-color: #f5b0b0; */
     display: flex;
     justify-content: space-between;
@@ -357,7 +357,7 @@ header{
 }
 
 .mbox1{
-    width: 50%;
+    width: 55%;
     height: 65vh;
     /* background-color: rgb(255, 156, 156); */
 }
@@ -365,34 +365,60 @@ header{
 .gmp{
     background-size: contain;
     width: 100%;
-    height: 50vh;
+    height: 55vh;
 }
 
 .mbox2{
-    width: 45%;
+    width: 8%;
     height: 65vh;
     /* background-color: rgb(230, 228, 228); */
+}
+
+.mbox2a{
+    width: 35%;
+    height: 65vh;
+    /* background-color: rgb(255, 226, 94); */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;  
 }
 
 .imbox1{
-    width: 80%;
-    height: 20vh;
-    border: solid 2px black;
+    width: 85%;
+    height: 18.5vh;
+    /* border: solid 2px black; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row; 
+    justify-content: left;
+    align-items: left;
+    flex-direction: column; 
     font-size: 80%;
-    
+    margin: 0px;
 }
 
+.imbox2{
+    width: 100%;
+    height: 19vh;
+    /* border: solid 2px black; */
+    font-size: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+
+}
+
+.txt{
+    font-size: 130%;
+    font-weight: bolder;
+}
+
+
+
+
 .gic{
-    width: 10%;
+    width: 45%;
     height: 5vh;
+    /* background-color: yellow; */
 }
 
 .svg1aa{
@@ -450,8 +476,9 @@ header{
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .sec5{
     width: 100%;
-    height: 130vh;
-    background-color:    #EBFCFF;
+    height: 185vh;
+    background-color:    #d8f6fc;
+    /* background-color:    #fd1100; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,33 +518,64 @@ header{
 .isec53{
     width: 75%;
     height: 50vh;
-    background-color: #c5ac19;
+    /* background-color: #c5ac19; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+
+}
+
+
+
+.isec53a{
+    width: 23%;
+    height: 27vh;
+    background-color:  #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    font-size: 70%;
+    line-height: 18px;
+    box-shadow: 0px 2px 2px 2px rgb(212, 209, 209);
+    margin: 15px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.isec53a:hover{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(51, 109, 106);
+    font-size: 100%;
+    color: white;
+    transition: all 200ms ease-in;
+    line-height: 23px;
+
 }
 
 
 .map{
     position: absolute;
     /* top: 78px; */
-    top: 550vh;
+    top: 620vh;
     width: 80%;
     height: 80vh;
 }
 
 .bigone{
     width: 100%;
-    height: 150vh;
-    background-color:    #EBFCFF;
-
- 
+    height: 140vh;
+    background-color:  #d8f6fc;
 }
 
 
 .big{
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     background-size: cover;
 }
 
@@ -530,6 +588,10 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
+    position: absolute;
+    top: 765vh;
+    margin: 20px;
 
 }
 
@@ -537,6 +599,143 @@ header{
     width: 5%;
     /* height: 5vh; */
 }
+
+
+
+
+.isec54{
+    width: 75%;
+    /* height: 10vh; */
+    /* background-color: #00ca4e; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-size: 80%;
+}
+
+.isec56{
+    width: 75%;
+    height: 30vh;
+    /* background-color: #ff2525; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.isec56x{
+    width: 90%;
+    height: 10vh;
+    /* background-color: #fd7272; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.isec56y{
+    width: 80%;
+    height: 10vh;
+    /* background-color: #1900ff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.gix{
+    width: 100%;
+    height: 15vh;
+    /* background-color: yellow; */
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.isec57{
+    width: 75%;
+    height: 20vh;
+    /* background-color: #ffb4b4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.isec58t{
+    width: 100%;
+    height: 75vh;
+    /* background-color: #c51f19; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: absolute;
+    top: 695vh;
+}
+
+
+.isec58{
+    width: 75%;
+    height: 70vh;
+    /* background-color: #c5ac19; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+
+
+.isec58a{
+    width: 35%;
+    height: 35vh;
+    background-color:  #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 70%;
+    line-height: 18px;
+    box-shadow: 0px 2px 2px 2px rgb(212, 209, 209);
+    margin: 15px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.isec58ax{
+    width: 35%;
+    height: 45vh;
+    background-color:  #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 70%;
+    line-height: 18px;
+    box-shadow: 0px 2px 2px 2px rgb(212, 209, 209);
+    margin: 15px;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    
+}
+
+/* .isec58a:hover{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(51, 109, 106);
+    font-size: 100%;
+    color: white;
+    transition: all 200ms ease-in;
+    line-height: 23px;
+
+} */
+
+
+
+
+
+
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */

@@ -27,6 +27,17 @@ import gicon1 from "./images/z1.png";
 import gicon2 from "./images/z2.png";
 import gicon3 from "./images/z3.png";
 import etron from "./images/elect.png";
+import xicon1 from "./images/h1.png";
+import xicon2 from "./images/h2.png";
+import xicon3 from "./images/h3.png";
+import xicon4 from "./images/h4.png";
+import xicon5 from "./images/h5.png";
+import xicon6 from "./images/h6.png";
+import xicon7 from "./images/h7.png";
+import xicon8 from "./images/h8.png";
+import xicon9 from "./images/h9.png";
+import xicon10 from "./images/h10.png";
+import xicon11 from "./images/h11.png";
 
 
 
@@ -163,25 +174,41 @@ Download Tynker apps and learn to code on the go.
     </div>
     <div className="isec4ab">
       <div className="mbox1"><img class="gmp" src={gm} alt="logo"/></div>
-      <div className="mbox2">
-      <div className="imbox1"><img class="gic" src={gicon1} alt="logo"/>
-        <h4>Tynker Junior</h4>
+
+
+
+
+
+ <div className="mbox2">
+      <div className="imbox2">
+      <img class="gic" src={gicon1} alt="logo"/>
+      </div>
+      <div className="imbox2">
+      <img class="gic" src={gicon2} alt="logo"/>
+       </div>
+      <div className="imbox2">
+      <img class="gic" src={gicon3} alt="logo"/>
+     </div>
+     
+ </div>
+ 
+ <div className="mbox2a">
+
+      <div className="imbox1">  
+<div className="txt">Tynker Junior</div>
 Tap-Tap picture coding with voice-overs. Pre-readers solve story-based puzzles and build their first programs in coding sandboxes. Ages 5-7
-
-    
-4.52,200+ reviews</div>
-      <div className="imbox1"><img class="gic" src={gicon2} alt="logo"/>
-        <h4>Tynker</h4>
+4.52,200+ reviews
+       </div>
+      <div className="imbox1">
+      <div className="txt">Tynker</div>
 Drag-and-drop block coding with a full-featured workshop. Build games and apps, compose music and art, control smart devices, and much, much more. Ages 6-11
-
-    
-4.710,400+ reviews</div>
-      <div className="imbox1"><img class="gic" src={gicon3} alt="logo"/>
-        <h4>Mod Creator</h4>
+4.710,400+ reviews
+      </div>
+      <div className="imbox1">
+      <div className="txt">Mod Creator</div>
 Drag-and-drop Minecraft modding. Design skins, blocks and items. Modify mob behaviors. Create mods and add ons. Explore worlds! Ages 6-11
-
-    
-4.03,300+ reviews</div>
+4.03,300+ reviews
+        </div>
       </div>
     </div>
     </div>
@@ -211,25 +238,6 @@ www.HiFiveInventor.com</div>
 
     <img class="svg1aa" src={svg2} alt="logo"/>
  
- {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
-{/* 
- <div className="secd">
-<div className="isecd">
-<h2>A Mini-Computer for the Internet of Things!</h2>
-Download Tynker apps and learn to code on the go.
-<button className="btn4">LEARN MORE</button>
-    </div>
-    <div className="isec4ab">
-      
-       
-      </div>
-    </div>
-  */}
-
-   
- 
-
-
 {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
 
 
@@ -249,10 +257,59 @@ Tynker isn’t just for schools and coding camps, though. Parents who value STEM
     </div>
 
     <div className="isec53">
-      <div className="isec53">1</div>
-      <div className="isec53">2</div>
-      <div className="isec53">3</div>
-      <div className="isec53">4</div>
+      <div className="isec53a">CODING BENEFITS<br />
+      &#x3e;Top 10 Reasons to Code<br />
+      &#x3e;Kids Coding Basics<br />
+      &#x3e;Develop 21st Century Skills<br />
+      &#x3e;Download eBooks on Coding</div>
+      <div className="isec53a">CODING GUIDES<br />
+      &#x3e;What is Coding for Kids<br />
+      &#x3e;Coding with Minecraft<br />
+      &#x3e;Coding with Electronic Kits<br />
+      &#x3e;Coding with Connected Toys<br />
+      &#x3e;More Coding Resources</div>
+      <div className="isec53a">TYNKER HIGHLIGHTS<br />
+      &#x3e;What’s New in Tynker?<br />
+      &#x3e;COVID-19 Impact report<br />
+      &#x3e;Meet our Featured Makers<br />
+      &#x3e;Seasonal Coding Projects<br />
+      &#x3e;Celebrating Women in STEM</div>
+      <div className="isec53a">CODING IN SCHOOLS<br />
+      &#x3e;K-12 School Plans<br />
+      &#x3e;AP Computer Science Principles<br />
+      &#x3e;AP Computer Science A<br />
+      &#x3e;Remote Learning<br />
+      &#x3e;K-12 Success Stories</div>
+    </div>
+
+    <h2>Trusted by Leading Brands</h2>
+    <div className="isec54">
+Our methods for learning to code all are provided within a safe, moderated community that is built<br />
+ around encouraging students to gain confidence in their abilities and do so without fear of failure.<br />
+    </div>
+
+    <div className="isec56">
+      <div className="isec56x">
+      <div> <img class="gix" src={xicon1} alt="logo"/></div>
+      <div> <img class="gix" src={xicon2} alt="logo"/></div>
+      <div> <img class="gix" src={xicon3} alt="logo"/></div>
+      <div> <img class="gix" src={xicon4} alt="logo"/></div>
+      <div> <img class="gix" src={xicon5} alt="logo"/></div>
+      <div> <img class="gix" src={xicon6} alt="logo"/></div>
+      </div>
+      <div className="isec56y">
+      <div> <img class="gix" src={xicon7} alt="logo"/></div>
+      <div> <img class="gix" src={xicon8} alt="logo"/></div>
+      <div> <img class="gix" src={xicon9} alt="logo"/></div>
+      <div> <img class="gix" src={xicon10} alt="logo"/></div>
+      <div> <img class="gix" src={xicon11} alt="logo"/></div>
+      </div>
+    </div>
+{/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
+
+    <div className="isec57">
+<h2>Join Tynker's Global Community</h2>
+<button className="btn4">SIGN UP FREE</button>
     </div>
 
 
@@ -262,24 +319,26 @@ Tynker isn’t just for schools and coding camps, though. Parents who value STEM
     <div className="bigone">
     <img class="big" src={big} alt="logo"/>
     </div>
+    <div className="isec58t">
+    <div className="isec58">
+      <div className="isec58a">I thought a game was going to be extremely hard to make, but Tynker made it really easy.</div>
+      <div className="isec58ax">There's so much opportunity once they understand how coding works. It's amazing to see them create incredible things themselves.</div>
+      <div className="isec58a">Tynker has made programming fun, exciting, and simple and will help lead kids into their future.</div>
+    </div>
+    </div>
+
+
+
 
     <div className="iconlist">
     <img class="ic" src={icona} alt="logo"/>
-    .....................
     <img class="ic" src={iconb} alt="logo"/>
-    .....................
     <img class="ic" src={iconc} alt="logo"/>
-    .....................
     <img class="ic" src={icond} alt="logo"/>
-    .....................
     <img class="ic" src={icone} alt="logo"/>
-    .....................
     <img class="ic" src={iconf} alt="logo"/>
-    .....................
     <img class="ic" src={icong} alt="logo"/>
-    .....................
     <img class="ic" src={iconh} alt="logo"/>
-    .....................
     </div>
  {/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
  <div className="footer">
